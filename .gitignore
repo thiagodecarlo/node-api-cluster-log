@@ -1,0 +1,46 @@
+# Dependências do Node
+node_modules/
+
+# Compilação do TypeScript
+dist/
+build/
+
+# Arquivos de configuração do IDE (Exemplo com VSCode)
+.vscode/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+
+# Arquivos de ambiente (.env) que contêm credenciais
+.env
+.env.local
+.env.*.local
+
+# Arquivos de cache do npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos do editor de código (Exemplo: VSCode)
+.vscode/
+
+# Arquivos de pacotes de dependências
+package-lock.json
+yarn.lock
+
+# Arquivos de coverage (Cobertura de testes)
+coverage/
+
+# Arquivos gerados durante testes de integração/execução
+*.tgz
+
+# Arquivos do Jest
+jest/
